@@ -1,4 +1,4 @@
--1 navigate:  recursive  navigate
+-1 walk:  recursive  walk
 	dict(k,v)  from initial dict json file or dict(k,v) receive from v as str|int|float|complex,list, and dict
 	k as name/obj: id, fqn=previous_fqn+name*
 --- previous fqn will be tracked as last element from [] ---
