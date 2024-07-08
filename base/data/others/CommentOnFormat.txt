@@ -12,7 +12,6 @@ header=["Token Names","composed Name","Value","Interpretation"]
 #          also, the interpretation shows how to  distinguish the same type of object when it is repeated  without dict/list name. cars2 json file interpretation illustrated this point.
 		    in car2.json the repeated objects are dict1 and dict2 in carXyear list and  the objects are repeated   in carZyear but without dict name.
 			the values for these objects from the flatter are identified  with unique Ids. Run the flatter and see the interpretation result for the objects inside carXyear and carZyear
-#
-#           Run Modes:
+
 
 #
