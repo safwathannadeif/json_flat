@@ -16,7 +16,6 @@ The DB, Dict-like structure, and annotation are typical use cases for these FQNs
 For the same json-object type and the positional hierarchy, the generated names are the same. Consistence, or the same name for the same object type, is crustal for periodic loading. 
 Accumulated data from periodic loading with consistency minimizes the misleadingness of weighted value analyses. 
 To keep this feature functioning properly across multiple periodical runs, the CFG value for the "generator" section in the CFG file should be the same.
-
 Run Modes:
 File Mode: produce a file with the above 3 columns along with their associated values. The CFG file needs three parameters for this mode.
 The parameters are: inp_json_file, out_file_results, and "list2Application=False. "Executing "scan_capture.py" will produce the output file.
