@@ -1,0 +1,21 @@
+{
+  "maker": "Alfa Romeo",
+  "Model": "Stelvio",
+  "carXyear": [
+    {
+      "year": 2023,
+      "instock": 4,
+	  "test_str":"v1_str1",
+      "sold": 140
+    },
+    {
+      "year": 2024,
+      "instock": 3,
+	   "test_str":"v2_str2",
+      "sold": 30
+    }
+  ],
+  "testdic": {"name1": "value1","NameNN":"Valu_NN_Inside_testdic" ,"name2": "value2x111", "num1": 1111, "num2": 2222}
+
+
+}

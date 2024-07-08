@@ -1,0 +1,10 @@
+  [         {
+    "fruit": "Apple",
+    "size": "Large",
+    "color": "Red",
+    "namex": [{"namex1" : "valuex1", "namex2": "valuex2"},
+              {"namey1" : "valuey1", "namey2": "valuey2"}
+    ]
+                     }
+
+                    ]

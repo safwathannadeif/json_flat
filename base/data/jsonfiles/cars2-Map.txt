@@ -1,0 +1,60 @@
+[
+  {
+    "maker": "Alfa Romeo",              [sb_0][sq_0][maker]
+    "Model": "Stelvio",
+    "carXyear": [
+      {
+        "year": 2024,                   [sb_0][sq_0][carXyear][g_d1][year]
+        "instock": 3,
+        "sold": 30
+      },
+      {
+        "nX1": "v1",
+        "nX2": "v2",
+        "dict1": {
+          "year": 2023,
+          "instock": 4,
+          "sold": 14
+        },
+        "dict2": {
+          "year": 2024,                     [sb_0][sq_0][carXyear][g_d2][dict2][year]
+          "instock": 3,
+          "sold": 30
+        }
+      }
+    ],
+    "yyyy": "strvale",
+    "xxxx": 200,
+    "caryZyear": [
+      {
+        "year": 2025,                       [sb_0][sq_0][caryZyear][g_d3][year]
+        "instock": 5,
+        "sold": 4
+      },
+      {
+        "year": 2026,                       [sb_0][sq_0][caryZyear][g_d4][year]
+        "instock": 3,
+        "sold": 3
+      },
+      {
+        "year": 2027,
+        "instock": 3,
+        "sold": 3
+      }
+    ],
+    "Lastlis_just_nums": [
+      100,
+      200,
+      300
+    ],
+    "jdict": {
+      "NNNNname": "VVVVvalue",
+      "second_in_lis": [
+        "AA",
+        "bb",
+        "CC",
+        "dd"
+      ]
+    }
+  }
+]

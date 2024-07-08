@@ -1,0 +1,30 @@
+{
+    "maker": "Alfa Romeo",
+    "Model": "Stelvio",
+    "carXyear": [
+        {
+            "year": 2023,
+            "instock": 4,
+            "sold": 14
+        },
+        {
+            "year": 2024,
+            "instock": 3,
+            "sold": 30
+        }
+    ],
+    "yyyy": "strvale",
+    "xxxx": 200,
+    "caryearx": [
+        {
+            "year": 2024,
+            "instock": 4,
+            "sold": 4
+        },
+        {
+            "year": 2024,
+            "instock": 3,
+            "sold": 3
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+-1 navigate:  recursive  navigate
+	dict(k,v)  from initial dict json file or dict(k,v) receive from v as str|int|float|complex,list, and dict
+	k as name/obj: id, fqn=previous_fqn+name*
+--- previous fqn will be tracked as last element from [] ---
+--- ie. at any time previous_fqn is the last element ---
+-2 append {fqn}
+--- append list and dict but not others (str|int|float|complex)
+
+3: if type(v)  is str|int|float|complex:
+--- case 2 known as nvp
+	k transformed to k/name+sep_nvp+randum_name+seq_no
+	fqn=previous_fqn+k/name
+	capture result fqn,v
+	
+-4 if type(v)  is list:
+	make lis_name as k transformed to k/name+sep_lis+randum_name+seq_no
+	fqn=previous_fqn+k/name*(lis_name)
+	append(fqn)
+	loop values:
+					v is dict go to 1:
+					v is str|int|float|complex:
+															go to 2: 
+5: if type(v)  is dict:
+	go to 1: 
+----------------------------------------------------------------
+fqn: full qualified name 
+nvp: name value pair	
+	
+-------------------------------------------------------
+structure of directories: tree /f > tree.tx
+ª
++---.idea
+ª   ª   .gitignore
+ª   ª   json_Flatter.iml
+ª   ª   misc.xml
+ª   ª   modules.xml
+ª   ª   workspace.xml
+ª   ª
+ª   +---inspectionProfiles
+ª           profiles_settings.xml
+ª           Project_Default.xml
+ª
++---json_flat
+    +---.idea
+    ª   ª   .gitignore
+    ª   ª   json_flat.iml
+    ª   ª   misc.xml
+    ª   ª   modules.xml
+    ª   ª   workspace.xml
+    ª   ª
+    ª   +---inspectionProfiles
+    ª           profiles_settings.xml
+    ª           Project_Default.xml
+    ª
+    +---base
+        +---cfg
+        ª   +---INI
+        ª           scan_capture.ini
+        ª
+        +---code
+        ª   ª   capture_state.py
+        ª   ª   cfg_scan_capture.py
+        ª   ª   extrator.py
+        ª   ª   readjsonfile.py
+        ª   ª   scan_capture.py
+        ª   ª
+        ª   +---unit_test
+        ª   ª       out_list_2_application.py
+        ª   ª
+        ª   +---__pycache__
+        ª           capture_state.cpython-312.pyc
+        ª           cfg_scan_capture.cpython-312.pyc
+        ª           extrator.cpython-312.pyc
+        ª           readjsonfile.cpython-312.pyc
+        ª           scan_capture.cpython-312.pyc
+        ª
+        +---data
+            +---jsonfiles
+            ª       Bg1.json
+            ª       cars.json
+            ª       cars1.json
+            ª       cars2-Map.txt
+            ª       cars2.json
+            ª       Example5.json
+            ª       Example55.json
+            ª       FromSample1.json
+            ª       FromSample2.json_QM
+            ª       lis_no_names._Notjson
+            ª       MedicalReport.json
+            ª       p1.json
+            ª       t1.json
+            ª       Test4.json
+            ª       testjson.json
+            ª       Test_No_Name_Work.json
+            ª       valid1_sample.json
+            ª       valid2_just_dict_sample.json
+            ª       valid2_sample.json
+            ª
+            +---others
+            ª       CommentOnFormat.txt
+            ª       HLD_scan_capture_json.txt
+            ª       tree.tx
+            ª
+            +---outfiles
+                    out1.txt
+                    test1.txt
+

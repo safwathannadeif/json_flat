@@ -1,0 +1,28 @@
+{
+    "gfg": {
+        "best": 4,
+        "good": 5
+    },
+    "is": {
+        "better": 6,
+        "educational": 4
+    },
+    "CS": {
+        "priceless": 6
+    },
+    "testdic": {
+        "name1": "value1",
+        "name2": "value2",
+        "num1": 1111,
+        "num2": 2222
+    },
+    "testlist": [
+        "lis_value1",
+        "lis_value2"
+    ],
+    "testlist2": [
+        "lis2_value12",
+        "lis2_value13",
+        "lis2_value14"
+    ]
+}
